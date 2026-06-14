@@ -1,0 +1,18 @@
+# بيانات حساسة
+*.env
+.env*
+secrets/
+*password*
+*secret*
+
+# Docker
+docker/custom_image/
+*.tar
+
+# Backups
+backups/*.sql
+backups/*.gz
+
+# OS
+.DS_Store
+Thumbs.db
