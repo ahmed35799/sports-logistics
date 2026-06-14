@@ -1,0 +1,10 @@
+FROM frappe/erpnext:v16.21.1
+
+# نسخ الـ App مباشرة من السيرفر
+COPY ./sports_logistics_app /home/frappe/frappe-bench/apps/sports_logistics
+
+# تثبيت الـ App في بيئة Python
+RUN cd /home/frappe/frappe-bench && \
+    uv pip install -e apps/sports_logistics \
+    --python /home/frappe/frappe-bench/env/bin/python && \
+    echo "sports_logistics" >> sites/apps.txt
