@@ -16,3 +16,4 @@ backups/*.gz
 # OS
 .DS_Store
 Thumbs.db
+compose.yaml
