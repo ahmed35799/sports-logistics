@@ -1,0 +1,15 @@
+{
+  "doctype": "Page",
+  "module": "Sports Logistics",
+  "name": "sl-portal",
+  "page_name": "sl-portal",
+  "title": "بوابة اللوجستيات",
+  "roles": [
+    {"role": "Employee"},
+    {"role": "Line Manager"},
+    {"role": "Logistics"},
+    {"role": "Finance"},
+    {"role": "MD"},
+    {"role": "System Manager"}
+  ]
+}
