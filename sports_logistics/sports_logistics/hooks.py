@@ -55,3 +55,6 @@ permission_query_conditions = {
     "SL Inventory Requests": "sports_logistics.permissions.get_inventory_conditions",
     "SL Facility Bookings": "sports_logistics.permissions.get_facility_conditions",
 }
+
+# ربط User بـ SL Employee عند تسجيل الدخول
+on_login = "sports_logistics.auth.on_login"
