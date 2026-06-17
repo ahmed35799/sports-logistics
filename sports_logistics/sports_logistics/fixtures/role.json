@@ -1,0 +1,67 @@
+[
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": "/desk/sl-portal",
+  "is_custom": 0,
+  "modified": "2026-06-17 02:55:54.375458",
+  "name": "Employee",
+  "restrict_to_domain": null,
+  "role_name": "Employee",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": "/desk/sl-portal",
+  "is_custom": 0,
+  "modified": "2026-06-17 02:56:03.554185",
+  "name": "Line Manager",
+  "restrict_to_domain": null,
+  "role_name": "Line Manager",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": "/desk/sl-portal",
+  "is_custom": 0,
+  "modified": "2026-06-17 02:56:11.392267",
+  "name": "MD",
+  "restrict_to_domain": "",
+  "role_name": "MD",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": "/desk/sl-portal",
+  "is_custom": 0,
+  "modified": "2026-06-17 02:56:15.045111",
+  "name": "Logistics",
+  "restrict_to_domain": null,
+  "role_name": "Logistics",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": "/desk/sl-portal",
+  "is_custom": 0,
+  "modified": "2026-06-17 02:56:22.408747",
+  "name": "Finance",
+  "restrict_to_domain": null,
+  "role_name": "Finance",
+  "two_factor_auth": 0
+ }
+]
