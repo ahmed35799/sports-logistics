@@ -1,0 +1,127 @@
+{
+ "app": "sports_logistics",
+ "charts": [],
+ "content": "[{\"id\": \"NZzf67voAr\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Travel Request\", \"link_to\": \"SL Travel Request\", \"type\": \"DocType\", \"label\": \"SL Travel Request\", \"col\": 4}}, {\"id\": \"5lIAHDOnjQ\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Custom Clearance\", \"link_to\": \"SL Custom Clearance\", \"type\": \"DocType\", \"label\": \"SL Custom Clearance\", \"col\": 4}}, {\"id\": \"6QCycrNV2O\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Government Visas\", \"link_to\": \"SL Government Visas\", \"type\": \"DocType\", \"label\": \"SL Government Visas\", \"col\": 4}}, {\"id\": \"1B1N9YPVDO\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Leave Letters\", \"link_to\": \"SL Leave Letters\", \"type\": \"DocType\", \"label\": \"SL Leave Letters\", \"col\": 4}}, {\"id\": \"X1mJynYr4N\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Inventory Requests\", \"link_to\": \"SL Inventory Requests\", \"type\": \"DocType\", \"label\": \"SL Inventory Requests\", \"col\": 4}}, {\"id\": \"XN4CfcnCZK\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Facility Bookings\", \"link_to\": \"SL Facility Bookings\", \"type\": \"DocType\", \"label\": \"SL Facility Bookings\", \"col\": 4}}]",
+ "creation": "2026-06-17 22:59:04",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fa fa-home",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "SL MD",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Travel Request",
+   "link_count": 0,
+   "link_to": "SL Travel Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Custom Clearance",
+   "link_count": 0,
+   "link_to": "SL Custom Clearance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Government Visas",
+   "link_count": 0,
+   "link_to": "SL Government Visas",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Leave Letters",
+   "link_count": 0,
+   "link_to": "SL Leave Letters",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Inventory Requests",
+   "link_count": 0,
+   "link_to": "SL Inventory Requests",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Facility Bookings",
+   "link_count": 0,
+   "link_to": "SL Facility Bookings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-18 02:24:01.207869",
+ "modified_by": "ahmed.co35799@gmail.com",
+ "module": "Sports Logistics",
+ "name": "SL MD",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "MD"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "label": "SL Travel Request",
+   "link_to": "SL Travel Request",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Custom Clearance",
+   "link_to": "SL Custom Clearance",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Government Visas",
+   "link_to": "SL Government Visas",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Leave Letters",
+   "link_to": "SL Leave Letters",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Inventory Requests",
+   "link_to": "SL Inventory Requests",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Facility Bookings",
+   "link_to": "SL Facility Bookings",
+   "type": "DocType"
+  }
+ ],
+ "title": "SL MD",
+ "type": "Workspace"
+}

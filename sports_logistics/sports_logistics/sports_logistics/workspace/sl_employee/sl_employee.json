@@ -1,0 +1,97 @@
+{
+ "app": "sports_logistics",
+ "charts": [],
+ "content": "[{\"id\": \"UUnAlDkUTC\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Travel Request\", \"link_to\": \"SL Travel Request\", \"type\": \"DocType\", \"label\": \"SL Travel Request\", \"col\": 4}}, {\"id\": \"LouPcxv3y1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Leave Letters\", \"link_to\": \"SL Leave Letters\", \"type\": \"DocType\", \"label\": \"SL Leave Letters\", \"col\": 4}}, {\"id\": \"Daeyi3sCcJ\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Inventory Requests\", \"link_to\": \"SL Inventory Requests\", \"type\": \"DocType\", \"label\": \"SL Inventory Requests\", \"col\": 4}}, {\"id\": \"uaYFJKIlp3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"SL Facility Bookings\", \"link_to\": \"SL Facility Bookings\", \"type\": \"DocType\", \"label\": \"SL Facility Bookings\", \"col\": 4}}]",
+ "creation": "2026-06-17 22:59:04",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fa fa-home",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "SL Employee",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Travel Request",
+   "link_count": 0,
+   "link_to": "SL Travel Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Leave Letters",
+   "link_count": 0,
+   "link_to": "SL Leave Letters",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Inventory Requests",
+   "link_count": 0,
+   "link_to": "SL Inventory Requests",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SL Facility Bookings",
+   "link_count": 0,
+   "link_to": "SL Facility Bookings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-17 22:59:04",
+ "modified_by": "Administrator",
+ "module": "Sports Logistics",
+ "name": "SL Employee",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Employee"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "label": "SL Travel Request",
+   "link_to": "SL Travel Request",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Leave Letters",
+   "link_to": "SL Leave Letters",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Inventory Requests",
+   "link_to": "SL Inventory Requests",
+   "type": "DocType"
+  },
+  {
+   "label": "SL Facility Bookings",
+   "link_to": "SL Facility Bookings",
+   "type": "DocType"
+  }
+ ],
+ "title": "SL Employee",
+ "type": "Workspace"
+}
