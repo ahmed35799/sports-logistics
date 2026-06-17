@@ -1,0 +1,64 @@
+{
+ "creation": "2026-06-17 04:45:18.150724",
+ "docstatus": 0,
+ "doctype": "Workflow",
+ "document_type": "SL Leave Letters",
+ "enable_action_confirmation": 0,
+ "idx": 0,
+ "is_active": 1,
+ "modified": "2026-06-17 04:45:18.150724",
+ "modified_by": "Administrator",
+ "name": "SL Leave Letters Workflow",
+ "override_status": 0,
+ "owner": "Administrator",
+ "send_email_alert": 0,
+ "states": [
+  {
+   "allow_edit": "MD",
+   "avoid_status_override": 0,
+   "doc_status": "0",
+   "evaluate_as_expression": 0,
+   "is_optional_state": 0,
+   "send_email": 1,
+   "state": "\u0627\u0646\u062a\u0638\u0627\u0631 \u0645\u0648\u0627\u0641\u0642\u0629 MD"
+  },
+  {
+   "allow_edit": "Logistics",
+   "avoid_status_override": 0,
+   "doc_status": "1",
+   "evaluate_as_expression": 0,
+   "is_optional_state": 0,
+   "send_email": 1,
+   "state": "\u0635\u062f\u0631 \u0627\u0644\u062e\u0637\u0627\u0628"
+  },
+  {
+   "allow_edit": "MD",
+   "avoid_status_override": 0,
+   "doc_status": "0",
+   "evaluate_as_expression": 0,
+   "is_optional_state": 0,
+   "send_email": 1,
+   "state": "\u0645\u0631\u0641\u0648\u0636"
+  }
+ ],
+ "transitions": [
+  {
+   "action": "\u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u062e\u0637\u0627\u0628",
+   "allow_self_approval": 1,
+   "allowed": "MD",
+   "next_state": "\u0635\u062f\u0631 \u0627\u0644\u062e\u0637\u0627\u0628",
+   "send_email_to_creator": 0,
+   "state": "\u0627\u0646\u062a\u0638\u0627\u0631 \u0645\u0648\u0627\u0641\u0642\u0629 MD"
+  },
+  {
+   "action": "\u0625\u0639\u0627\u062f\u0629 \u0644\u0644\u0645\u0642\u062f\u0645",
+   "allow_self_approval": 1,
+   "allowed": "MD",
+   "next_state": "\u0645\u0631\u0641\u0648\u0636",
+   "send_email_to_creator": 0,
+   "state": "\u0627\u0646\u062a\u0638\u0627\u0631 \u0645\u0648\u0627\u0641\u0642\u0629 MD"
+  }
+ ],
+ "workflow_name": "SL Leave Letters Workflow",
+ "workflow_state_field": "status"
+}
