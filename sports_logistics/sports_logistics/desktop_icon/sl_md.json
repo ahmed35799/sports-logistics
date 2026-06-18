@@ -1,0 +1,21 @@
+{
+ "app": "sports_logistics",
+ "bg_color": "gray",
+ "creation": "2026-06-18 02:00:10.343083",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "SL MD",
+ "link_to": "SL MD",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-06-18 04:06:15.428970",
+ "modified_by": "test@test.com",
+ "name": "SL MD",
+ "owner": "ahmed.co35799@gmail.com",
+ "parent_icon": "",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

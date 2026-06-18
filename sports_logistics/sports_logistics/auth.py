@@ -1,41 +1,33 @@
 import frappe
 
+ROLE_WORKSPACE = {
+    "Employee": "SL Employee",
+    "Line Manager": "SL Line Manager",
+    "MD": "SL MD",
+    "Logistics": "SL Logistics",
+}
 
 def on_login(login_manager):
-    """عند تسجيل الدخول — ربط المستخدم بـ SL Employee وتحديد وجهته"""
     user = login_manager.user
+    roles = frappe.get_roles(user)
+    import json
+    for role, workspace in ROLE_WORKSPACE.items():
+        if role in roles:
+            frappe.db.sql(
+                "UPDATE `tabUser` SET home_settings = %s WHERE name = %s",
+                (json.dumps({"workspace": workspace}), user),
+                auto_commit=True
+            )
+            break
 
-    # تجاهل حساب Administrator
-    if user == "Administrator":
-        return
+def has_employee_permission():
+    return "Employee" in frappe.get_roles()
 
-    # البحث عن SL Employee بنفس البريد
-    employee = frappe.db.get_value(
-        "SL Employee",
-        {"email": user},
-        ["name", "user_role", "full_name_ar"],
-        as_dict=True
-    )
+def has_line_manager_permission():
+    return "Line Manager" in frappe.get_roles()
 
-    if not employee:
-        return
+def has_md_permission():
+    return "MD" in frappe.get_roles()
 
-    # التأكد من أن المستخدم لديه الدور الصحيح
-    user_doc = frappe.get_doc("User", user)
-    current_roles = [r.role for r in user_doc.roles]
-
-    role_map = {
-        "Employee":     "Employee",
-        "Line Manager": "Line Manager",
-        "Logistics":    "Logistics",
-        "Finance":      "Finance",
-        "MD":           "MD",
-        "Admin":        "System Manager",
-    }
-
-    target_role = role_map.get(employee.user_role)
-
-    if target_role and target_role not in current_roles:
-        user_doc.append("roles", {"role": target_role})
-        user_doc.save(ignore_permissions=True)
-        frappe.db.commit()
+def has_logistics_permission():
+    return "Logistics" in frappe.get_roles()

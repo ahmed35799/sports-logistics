@@ -58,3 +58,35 @@ permission_query_conditions = {
 
 # ربط User بـ SL Employee عند تسجيل الدخول
 on_login = "sports_logistics.auth.on_login"
+
+# App Switcher — يظهر الواجهة الصحيحة حسب الدور
+add_to_apps_screen = [
+    {
+        "name": "sl_employee",
+        "logo": "/assets/sports_logistics/images/logo.png",
+        "title": "بوابة الموظف",
+        "route": "/desk/sl-employee",
+        "has_permission": "sports_logistics.auth.has_employee_permission",
+    },
+    {
+        "name": "sl_line_manager",
+        "logo": "/assets/sports_logistics/images/logo.png",
+        "title": "بوابة المدير المباشر",
+        "route": "/desk/sl-line-manager",
+        "has_permission": "sports_logistics.auth.has_line_manager_permission",
+    },
+    {
+        "name": "sl_md",
+        "logo": "/assets/sports_logistics/images/logo.png",
+        "title": "بوابة MD",
+        "route": "/desk/sl-md",
+        "has_permission": "sports_logistics.auth.has_md_permission",
+    },
+    {
+        "name": "sl_logistics",
+        "logo": "/assets/sports_logistics/images/logo.png",
+        "title": "بوابة اللوجستيات",
+        "route": "/desk/sl-logistics",
+        "has_permission": "sports_logistics.auth.has_logistics_permission",
+    },
+]
